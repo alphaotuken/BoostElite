@@ -1,10 +1,22 @@
-import discord, datetime, time, flask, requests, json, threading, os, random, httpx, tls_client, sys
+import discord
+import datetime
+import time
+import flask
+import requests
+import json
+import threading
+import os
+import random
+import httpx
+import sys
 from flask import request
 from pathlib import Path
 from threading import Thread
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from boosting import *
 from sellpass import SellPass
+
+app = flask.Flask(__name__)
 
 orders = []
 
