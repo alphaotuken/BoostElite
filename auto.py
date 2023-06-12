@@ -22,7 +22,6 @@ orders = []
 
 config = json.load(open("config.json", encoding="utf-8"))
 
-
 def getinviteCode(invite_input): #gets invite CODE
     if "discord.gg" not in invite_input:
         return invite_input
