@@ -1,4 +1,3 @@
-
 from colorama import Style
 import discord
 import datetime
